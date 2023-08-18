@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "uYRHXHo7YX6DhzeVbEnvqecKy8TB+E7CRXRutKVYgNY=",
+  "Source": "NhanSuAPI",
+  "BasePath": "_content/NhanSuAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
