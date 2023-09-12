@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ThucTap\\NhanSuAPI\\NhanSuAPI\\NhanSuAPI\\NhanSuAPI.csproj": {}
+    "D:\\Bài Tập HK7\\ThucTap\\NhanSuAPI\\NhanSuAPI\\NhanSuAPI\\NhanSuAPI.csproj": {}
   },
   "projects": {
-    "D:\\ThucTap\\NhanSuAPI\\NhanSuAPI\\NhanSuAPI\\NhanSuAPI.csproj": {
+    "D:\\Bài Tập HK7\\ThucTap\\NhanSuAPI\\NhanSuAPI\\NhanSuAPI\\NhanSuAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ThucTap\\NhanSuAPI\\NhanSuAPI\\NhanSuAPI\\NhanSuAPI.csproj",
+        "projectUniqueName": "D:\\Bài Tập HK7\\ThucTap\\NhanSuAPI\\NhanSuAPI\\NhanSuAPI\\NhanSuAPI.csproj",
         "projectName": "NhanSuAPI",
-        "projectPath": "D:\\ThucTap\\NhanSuAPI\\NhanSuAPI\\NhanSuAPI\\NhanSuAPI.csproj",
-        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "D:\\ThucTap\\NhanSuAPI\\NhanSuAPI\\NhanSuAPI\\obj\\",
+        "projectPath": "D:\\Bài Tập HK7\\ThucTap\\NhanSuAPI\\NhanSuAPI\\NhanSuAPI\\NhanSuAPI.csproj",
+        "packagesPath": "C:\\Users\\NHIEU\\.nuget\\packages\\",
+        "outputPath": "D:\\Bài Tập HK7\\ThucTap\\NhanSuAPI\\NhanSuAPI\\NhanSuAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\NHIEU\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -68,7 +68,17 @@
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
               "version": "[6.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.14, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
@@ -98,7 +108,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400-preview.23330.10\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

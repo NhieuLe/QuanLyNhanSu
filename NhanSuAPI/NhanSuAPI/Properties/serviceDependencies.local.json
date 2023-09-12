@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "secrets1": {
+      "type": "secrets.user"
+    },
+    "mssql1": {
+      "serviceConnectorResourceId": "",
+      "secretStore": "LocalSecretsFile",
+      "type": "mssql.local",
+      "connectionId": "ConnectionStrings:DefaultConnection"
+    },
+    "sqlite1": {
+      "secretStore": "LocalSecretsFile",
+      "type": "sqlite.local",
+      "connectionId": "DESKTOP-9HBFG64:SQLEXPRESS"
+    }
+  }
+}
